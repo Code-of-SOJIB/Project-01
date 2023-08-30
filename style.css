@@ -1,0 +1,623 @@
+/* ===============================
+      common css
+===================================*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Georgia, sans-serif;
+}
+.container {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.div-clear {
+  clear: both;
+}
+
+/* ===============================
+      common css
+===================================*/
+
+/* ===============================
+      top header area css
+===================================*/
+
+header {
+  width: 100%;
+}
+
+.top-header-area {
+  background-color: #ba2e1f;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.mini-menu {
+  width: 70%;
+  float: left;
+}
+
+.serach-area {
+  width: 30%;
+  float: right;
+}
+
+.mini-menu ul li {
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+}
+
+.mini-menu ul li a {
+  color: white;
+  font-size: 14px;
+}
+
+.mini-menu ul li a:hover {
+  color: blue;
+}
+
+.mini-menu ul li::after {
+  position: absolute;
+  content: "";
+  bottom: 1px;
+  right: -10px;
+  width: 2.5px;
+  height: 15px;
+  background-color: white;
+}
+
+.mini-menu ul li:last-child::after {
+  display: none;
+}
+
+.search-area form {
+  position: relative;
+  float: right;
+  background-color: white;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.search-area input {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border: 0px solid white;
+  max-width: 210px;
+  width: 100%;
+  padding: 5px 0 5px 10px;
+}
+
+.search-area i {
+  position: absolute;
+  right: 3px;
+  top: 5px;
+  color: #ba2e1f;
+}
+
+/* ===============================
+      main header area
+===================================*/
+
+.main-header-area {
+  width: 100%;
+}
+
+.logo-area {
+  float: left;
+  width: 240px;
+  padding-top: 45px;
+}
+
+.social-area {
+  float: right;
+  max-width: 600px;
+  padding-top: 60px;
+}
+
+.social-area ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.social-area ul li a {
+  display: block;
+}
+
+.social-area ul li a i {
+  background-color: #333333;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 35px;
+  height: 25px;
+  text-align: center;
+  padding-top: 8px;
+  color: white;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.social-area ul li a i:hover {
+}
+
+.social-area ul li a:hover i.fa-linkedin {
+  background-color: #0e76e8;
+}
+
+.social-area ul li a:hover i.fa-twitter {
+  background-color: #00acee;
+}
+
+.social-area ul li a:hover i.fa-pinterest {
+  background-color: yellow;
+  color: black;
+}
+
+.social-area ul li a:hover i.fa-google-plus {
+  background-color: #db4a39;
+}
+
+.social-area ul li a:hover i.fa-rss {
+  background-color: red;
+}
+
+/* ===============================
+     main-menu
+===================================*/
+
+.main-menu {
+  background-color: #333333;
+  margin: 40px 0;
+}
+.main-menu ul {
+  text-align: center;
+}
+
+.main-menu ul li {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.main-menu ul li a {
+  display: block;
+  color: white;
+  padding: 10px 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.main-menu ul li::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  right: -10px;
+  background-color: white;
+  width: 3px;
+  height: 14px;
+}
+
+.main-menu ul li:last-child::after {
+  display: none;
+}
+
+.main-menu ul li a:hover {
+  color: #ba2e1f;
+}
+
+.main-menu ul li ul {
+  position: absolute;
+  background-color: #333333;
+  width: 200px;
+  left: -30px;
+  top: 37px;
+  display: none;
+}
+
+.main-menu ul li:hover ul {
+  display: block;
+}
+
+/* ===============================
+      common css
+===================================*/
+#title {
+  width: 100%;
+}
+
+.title-img {
+  float: left;
+  width: 40%;
+}
+
+.title-text {
+  float: right;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.title-text p {
+  padding-top: 30px;
+}
+
+.title-text h3 {
+  text-align: right;
+  padding-top: 20px;
+  color: #ba2e1f;
+}
+
+/* ===============================
+     about 
+===================================*/
+
+#about {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 40px 0;
+  overflow: hidden;
+  margin: 50px 0;
+}
+
+.about-us {
+  width: 31.3%;
+  float: left;
+}
+
+.about-us h3 {
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 26px;
+  font-family: georiga, sans-serif;
+  color: #333333;
+}
+
+.about-us p {
+  padding-top: 20px;
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: georiga, sans-serif;
+  color: #888888;
+}
+
+.about-us h4 {
+  text-align: right;
+  font-weight: 400px;
+  font-size: 14px;
+  color: #ba2e1f;
+  padding-top: 15px;
+  font-family: georiga, sans-serif;
+}
+
+/* service part */
+
+.our-services {
+  width: 31.3%;
+  float: left;
+  margin-left: 20px;
+}
+.service-one {
+  padding-bottom: 25px;
+}
+
+.service-text {
+  position: relative;
+  padding-left: 67px;
+}
+
+.service-one img {
+  position: absolute;
+}
+
+.our-services h3 {
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 26px;
+  font-family: georiga, sans-serif;
+  color: #333333;
+}
+
+.service-text h4 {
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: georiga, sans-serif;
+  color: #534f4f;
+}
+
+.service-text p {
+  padding-top: 7px;
+
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: georiga, sans-serif;
+  color: #888888;
+}
+
+.service-text h5 {
+  padding-top: 40px;
+  text-align: right;
+  font-weight: 400px;
+  font-size: 14px;
+  color: #ba2e1f;
+  font-family: georiga, sans-serif;
+}
+
+/* client says */
+
+.client-says {
+  width: 31.3%;
+  float: left;
+  margin-left: 20px;
+}
+
+.client-says h3 {
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 26px;
+  font-family: georiga, sans-serif;
+  color: #333333;
+}
+
+.client-head {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.client-head img {
+  position: absolute;
+  top: -12px;
+  left: 0;
+}
+
+.client-head h4 {
+  padding-left: 70px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: georiga, sans-serif;
+  color: #333333;
+}
+
+.client-head p {
+  padding-top: 15px;
+}
+
+.client-head h5 {
+  padding-top: 10px;
+  text-align: right;
+  font-weight: 400px;
+  font-size: 14px;
+  color: #ba2e1f;
+  font-family: georiga, sans-serif;
+}
+
+/* ===============================
+     footer
+===================================*/
+
+footer {
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.tweets {
+  width: 22%;
+  float: left;
+}
+
+.tweets p {
+  padding: 0 px;
+  padding-top: 25px;
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: georiga, sans-serif;
+  color: #888888;
+}
+
+.tweets p span {
+  color: #ba2e1f;
+}
+
+.tweets h3 {
+  position: relative;
+}
+
+.tweets h3::after {
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ba2e1f;
+}
+
+/* linkd */
+
+.links {
+  width: 22%;
+  float: left;
+  margin-left: 20px;
+}
+
+.links h3 {
+  position: relative;
+}
+
+.links h3::after {
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ba2e1f;
+}
+
+.links-text {
+  padding-top: 25px;
+}
+.links-text h4 {
+  padding-bottom: 5px;
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: georiga, sans-serif;
+  color: #888888;
+}
+
+.links-text h4 span {
+  padding-right: 7px;
+}
+
+/* posts */
+
+.posts {
+  float: left;
+  width: 22%;
+  margin-left: 20px;
+}
+.posts h3 {
+  position: relative;
+}
+
+.posts h3::after {
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ba2e1f;
+}
+
+.post-text {
+  padding-top: 20px;
+}
+
+.text-head h5 {
+  font-weight: 200px;
+  font-size: 12px;
+  font-family: georiga, sans-serif;
+  color: #888888;
+}
+
+.text-head h4 {
+  font-weight: 400px;
+  font-size: 16px;
+  font-family: georiga, sans-serif;
+  color: #888888;
+}
+
+.text-head p {
+  padding-top: 10px;
+  font-weight: 300px;
+  font-size: 14px;
+  font-family: georiga, sans-serif;
+  color: #888888;
+}
+
+.text-head h6 {
+  text-align: right;
+  color: #ba2e1f;
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: georiga, sans-serif;
+}
+
+/* contact */
+
+.contact {
+  width: 22%;
+  float: left;
+  padding-left: 22px;
+}
+
+.contact h3 {
+  position: relative;
+}
+
+.contact h3::after {
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ba2e1f;
+}
+
+.contact form {
+  padding-top: 20px;
+}
+
+.contact form input {
+  margin-bottom: 10px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.contact form textarea {
+  background-color: #f2f2f2;
+  padding: 10px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact form button {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 3px 10px;
+  margin-top: 10px;
+  color: #ba2e1f;
+}
+
+.last {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* ===============================
+      common css
+===================================*/
